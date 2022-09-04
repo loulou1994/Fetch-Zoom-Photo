@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      canvas#canvas {
+          border: 3px solid black;
+          cursor: none;
+        }
+        
+        button {
+            font-size: 1.3rem;
+        padding: 0.8rem 1rem;
+        border: 0;
+        border-radius: 1rem;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(150deg 50% 35%);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="420"></canvas>
+    <button type="button">Generate Photo</button>
+    <script src="./script.js" type="module"></script>
+    <!-- <script src="config.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,17 @@
+#node packages
+node_modules
+
+#file containing public api key
+config.js
+
+#notes on some pieces of logic kept aside
+unsplash json data.txt
+
+#environment variables
+.env
+
+#distribution
+dist
+
+#caching
+.parcel-cache
