@@ -1,5 +1,3 @@
-require("dotenv").config()
-
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const fetchPhotoBtn = document.querySelector("button");
@@ -95,4 +93,4 @@ canvas.addEventListener("mousemove", (eventObj) => {
 
 fetchPhotoBtn.addEventListener("click", generateImg);
 
-generateImg();
+// generateImg();
