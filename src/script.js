@@ -93,4 +93,4 @@ canvas.addEventListener("mousemove", (eventObj) => {
 
 fetchPhotoBtn.addEventListener("click", generateImg);
 
-// generateImg();
+generateImg();
